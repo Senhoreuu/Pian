@@ -55,7 +55,7 @@ checkbox.addEventListener('change', ({ target }) => {
 });
 
 const keyDownMapper = {
-    "Tab": () => handleMouseDown(keys[0]),
+    "'": () => handleMouseDown(keys[0]),
     "1": () => handleMouseDown(keys[1]),
     "q": () => handleMouseDown(keys[2]),
     "2": () => handleMouseDown(keys[3]),
@@ -82,7 +82,7 @@ const keyDownMapper = {
 }
 
 const keyUpMapper = {
-    "Tab": () => handleMouseUp(keys[0]),
+    "'": () => handleMouseUp(keys[0]),
     "1": () => handleMouseUp(keys[1]),
     "q": () => handleMouseUp(keys[2]),
     "2": () => handleMouseUp(keys[3]),
