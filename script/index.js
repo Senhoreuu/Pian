@@ -122,7 +122,6 @@ document.addEventListener('keyup', (event) => {
 
 (() => {
     const disabled = localStorage.getItem('disabled-keys-piano');
-    console.log(disabled);
 
     if (disabled === 'true') {
         switcher.classList.remove('switcher--active');
