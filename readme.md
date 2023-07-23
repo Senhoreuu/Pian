@@ -1,6 +1,7 @@
 # Piano com HTML, CSS e JavaScript
 
-        <section class="piano__keys">
+<div>
+            <section class="piano__keys">
 
             <div class="key white-key" data-note="1"><span>&#39;</span></div>
             <div class="key black-key" data-note="2"><span>&#49;</span></div>
@@ -28,3 +29,4 @@
             <div class="key white-key" data-note="24"><span>&#92;</span></div>
 
         </section>
+</div>
